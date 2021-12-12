@@ -1,0 +1,11 @@
+import type {ReactNode} from 'react';
+
+export type SwitchProps = {
+    fallback: ReactNode,
+    children: ReactNode
+}
+
+export type MatchProps = {
+    when:boolean,
+    children: ReactNode
+}
