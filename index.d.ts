@@ -1,7 +1,7 @@
 import { ReactNode, ReactElement } from 'react';
 
 type SwitchProps = {
-	fallback: ReactNode;
+	fallback?: ReactNode;
 	children: ReactNode;
 };
 
